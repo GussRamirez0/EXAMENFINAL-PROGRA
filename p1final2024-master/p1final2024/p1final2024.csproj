@@ -103,7 +103,7 @@
     <Compile Include="Articulos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Articulos.Designer.cs">
+	  <Compile> Include="Articulos.Designer.cs"></Compile>
       <DependentUpon>Articulos.cs</DependentUpon>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
