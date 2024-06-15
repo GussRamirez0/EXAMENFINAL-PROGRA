@@ -103,8 +103,9 @@
     <Compile Include="Articulos.cs">
       <SubType>Form</SubType>
     </Compile>
-	  <Compile> Include="Articulos.Designer.cs"></Compile>
+    <Compile Include="Articulos.Designer.cs">
       <DependentUpon>Articulos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Articulos.resx">
@@ -132,5 +133,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
